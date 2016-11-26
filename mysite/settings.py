@@ -25,7 +25,10 @@ SECRET_KEY = '06jwnvo)gmd36di_^mnfpm+xms2(#=cu9nn5^5n+3yc_3(g$_8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'agnohr.pythonanywhere.com',
+    'localhost'
+]
 
 
 # Application definition
